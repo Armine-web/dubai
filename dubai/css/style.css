@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100;1,400;1,500;1,700;1,800;1,900&family=Montserrat:wght@100&family=Roboto:ital,wght@0,400;1,100;1,300;1,400;1,500;1,700;1,900&family=Supermercado+One&display=swap');
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+.headerImg{
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.headerText{
+    position: absolute;
+    top: 55px;
+    left: 3%;
+    max-width: 753px;
+    padding-right: 50px;
+}
+.headerTitle{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    
+}
+.headerInner{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 19px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 17px;
+    width: 187px;
+    height: 49px;
+    margin-top: 44px;
+}
+.contact a{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FDFDFD;
+}
+.wave{
+    position: absolute;
+    top: -8px;
+    left: 41%;
+    line-height: normal;
+}
+.arrow{
+    position: absolute;
+    bottom: 19px;
+    left: 49%;
+}
+.welcome{
+    width: 100%;
+    max-height: 155px;
+    height: 100%;
+    background: #676767;
+    margin-top: -10px;
+}
+.main{
+    padding: 32px 52px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.mainSubTitle{
+    border-left: 1px solid #000000;
+    padding-left: 18px;
+    margin-left: 18px;
+    text-align: center;
+   
+}
+.mainTitle p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+}
+.mainSubTitle p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+.mainImg{
+    padding-left: 52px;
+    padding-right: 52px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.villas{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.villasDiv{
+    max-width: 735px;
+    width: 100%;
+    background-color:#434343;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    margin-bottom: 29px;
+}
+.villasDiv1{
+    margin-right: 15px;
+}
+.villasDiv img{
+    width: 100%;
+}
+.villasTitle{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin: 71px 24px 0;
+}
+.villasSubTitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0 24px 30px;
+}
+.popular{
+    width: 100%;
+    min-height: 678px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.popularImg{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-height: 678px;
+    border-radius: 21px;
+    margin-bottom: 29px;
+    margin-right: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+.popularInner{
+    position: absolute;
+    bottom: 21px;
+    left: 34px;
+}
+.popularTitle{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.popularSubTitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.popularImg2{
+    
+    display: flex;
+    max-width: 701px;
+    width: 100%;
+    min-height: 678px;
+    border-radius: 21px;
+    margin-bottom: 29px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+.sea{
+    max-width: 680px;
+    margin-right: 15px;
+    height: 100%;
+}
+.popularImg3{
+
+    margin: 0 auto;
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 492px;
+    margin-bottom: 29px;
+    border-radius: 21px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.popularImg3 img, 
+.popularImg img,
+.popularImg2 img{
+    border-radius: 21px;
+
+}
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.arguments{
+    max-width: 493px;
+    margin-bottom: 88px;
+    margin-top: 30px;
+}
+.interested{
+    position: relative;
+}
+.interested p:first-child{
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 115px;
+    color: #000000;
+    margin-top: 83px;
+}
+.interestedInner{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+.interestedInner a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000; 
+    padding: 20px 30px 20px 34px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    margin: 42px 5px;
+}
+.interestedImg{
+    position: absolute;
+    top: 60px;
+    z-index: -1;
+    margin-left: -52px;
+    margin-right: -52px;
+}
+.footer{
+    position: absolute;
+    bottom: 19px;
+    left: 42%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 1200px) {
+    .wave{
+        display: none; 
+    }
+    .villasTitle{
+        margin: 24px;
+    }
+    .villas{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .villasDiv{
+       max-width: 680px;
+       margin-right: 0;
+    }
+    img{
+        object-fit: cover;
+    }
+    .popularInner{
+        top: 25px;
+    }
+    .popular{
+        width: 100%;
+        min-height: 400px;
+    }
+    .mainImg{
+        padding: 25px;
+        padding-right: 35px;
+    }
+    .popularImg, .popularImg2{
+        max-width: 400px;
+        min-height: 400px;
+    }
+    .interestedImg {
+        top: 150px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .footer{
+        bottom: 10px;
+        left: 32%;
+    }
+    .popularTitle{
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .popularSubTitle {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .interestedInner a {
+        font-size: 30px;
+        padding: 0px 20px 0px 24px;
+    }
+    .arrow {
+        width: 25px;
+    }
+    .arrow {
+        width: 25px;
+    }
+    .mainTitle p{
+        line-height: 38px;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 650px){
+    .headerText{
+        top: 15px;
+        margin-right: 10px;
+        padding-right: 0;
+    }
+    .welcomeImg{
+        display: none;
+    }
+    .mainImg{
+        padding: 15px;
+    }
+    .headerTitle {
+        font-size: 25px;
+    }
+    .headerInner {
+       font-size: 18px;
+       margin-top: 0;
+       line-height: 1.2;
+    }
+    .interestedInner{
+        width: 250px;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .popular {
+        min-height: auto;
+    }
+    .interestedInner a{
+        line-height: 1.6;
+    }
+    .contact{
+        width: 100px;
+        height: 29px;
+        margin-top: 14px;
+    }
+    .contact a{
+        font-size: 18px;
+        
+    }
+    .main{
+        display: block;
+    }
+    .mainSubTitle{
+        padding-left: 0;
+        border: none;
+    }
+    .mainSubTitle p{
+        font-size: 22px;
+    }
+    .villasTitle, .villasSubTitle{
+        margin: 10px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .popularTitle {
+        line-height: 0px;
+        font-size: 18px;
+    }
+   
+    .popularImg3 img, .popularImg img, .popularImg2 img {
+        height: 200px;
+    }
+    .popularImg, .popularImg2 {
+        max-width: 400px;
+        min-height: 40px;
+    }
+    .sea{
+        margin-right: 10px;
+    }
+    .interested p:first-child{
+        font-size: 30px;
+        line-height: 0px;
+    }
+    .popularImg{
+        margin-right: 10px;
+    }
+    .popularTitle{
+        line-height: 28px;
+    }
+    .interestedImg {
+        top: 170px;
+    }
+    .footer{
+        font-size: 12px;
+        bottom: 5px;
+        left: 10px;
+    
+    }
+    .popularSubTitle {
+        font-size: 16px;
+    }
+    
+    .main {
+        padding: 22px;
+    }
+     
+}
+@media screen and (max-width: 500px){
+    .popular{
+        flex-wrap: wrap;
+    }
+    .headerInner {
+        font-size: 12px;
+    }
+    .popularImg{
+        margin-right: 0;
+    }
+    .popularImg, .popularImg2 {
+        max-width: 100%;
+    }
+    .sea{
+        margin-right: 0;
+    }
+    .headerText{
+        top: 0;
+    }
+}
